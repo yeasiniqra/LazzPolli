@@ -36,7 +36,7 @@
 			left: 0;
 			background: transparent;
 			padding: 0;
-			padding-left: 45px;
+			padding-left: 25px;
 			-webkit-transition: 0.9s;
 			-o-transition: 0.9s;
 			transition: 0.9s;
@@ -106,19 +106,129 @@
     .main-menu-flex {
 		justify-content: space-between;
 	}
-
-
+    .main-menu > ul > li > ul > li a {
+        color: #fff !important;
+    }
+    .main-menu > ul > li > ul > li {
+        border-bottom: none;
+    }
+    .main-header-area.fade-in .animi .main-menu > ul > li a {
+        color: #fff;
+    }
+    .support-gif-icon::before {
+        display: none;
+    }
+    .support-gif-icon::after {
+        display: none;
+    }
 
 
 
 }
 
 @media all and (max-width:767px){
-	
+	.header-top-flex.d-flexx {
+        display: none;
+    }
+    .banner-content-overly {
+        bottom: 55px;
+        right: 30px;
+        max-width: 440px;
+    }
+    .banner-content h2 {
+        font-size: 35px;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+    .col-md-5 {
+        flex: 0 0 100%;
+        margin: 15px 0px;
+    }
+    .col-md-7 {
+        flex: 0 0 100%;
+        margin: 15px 0px;
+    }
+    .support-given-main-flex {
+        flex-wrap: wrap;
+    }
+    .support-given-single-item {
+        flex: 0 0 50%;
+    }
+    .location .map-widget {
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .footer-top-flex {
+        flex-wrap: wrap;
+    }
+    .footer-main-flex {
+        flex-wrap: wrap;
+    }
+    .footer-logo {
+        flex: 0 0 45%;
+    }
+    .footer-menu {
+    flex: 0 0 54%;
+}
+
+.footer-marque {
+    top: 25px;
+}
+.footer-area::after {
+    bottom: 75px;
+}
+.footer-bottom {
+    padding-top: 58px;
+}
+
+
 }
 
 @media all and (max-width:575px){
-	
+	.slide.custom-splide img {
+        height: 450px;
+        object-fit: cover;
+    }
+    .sidepanel {
+        width: 65%;
+    }
+    .banner-area .splide__arrow--next {
+        right: 0px;
+    }
+    .banner-area .splide__arrow--prev {
+        left: 0px;
+    }
+    .banner-content-overly {
+        bottom: 55px;
+        left: 10%;
+         max-width: 100%; 
+    }
+    .footer-top-content {
+        text-align: center;
+        margin: 15px 0px;
+    }
+    .footer-top-flex {
+        flex-direction: column;
+    }
+    .footer-main-flex {
+        flex-direction: column;
+    }
+    .footer-bottom {
+        flex-direction: column;
+    }
+
+
+
+
+
+
+
+
+
+
 }
 
 @media all and (max-width:413px){
