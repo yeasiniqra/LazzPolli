@@ -171,18 +171,18 @@
         flex: 0 0 45%;
     }
     .footer-menu {
-    flex: 0 0 54%;
-}
+        flex: 0 0 54%;
+    }
 
-.footer-marque {
-    top: 25px;
-}
-.footer-area::after {
-    bottom: 75px;
-}
-.footer-bottom {
-    padding-top: 58px;
-}
+    .footer-marque {
+        top: 25px;
+    }
+    .footer-area::after {
+        bottom: 75px;
+    }
+    .footer-bottom {
+        padding-top: 58px;
+    }
 
 
 }

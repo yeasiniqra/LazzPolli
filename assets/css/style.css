@@ -18,9 +18,7 @@ body{
    --green-color : #4FA961;
  }
  
-.bg-sec{
-  background: #F4F4F4;
-}
+
 
 .main-body-overflow{
 	overflow: hidden !important;
@@ -280,16 +278,6 @@ img{
 	padding-bottom: 10px;
    position: relative;
 }
-.common-heading h1::after {
-	position: absolute;
-	content: "";
-	width: 55px;
-	height: 5px;
-	background: var(--secundery-color);
-	left: 0;
-	bottom: 0;
-}
-
 
 h1 {
 	color: var(--secundery-color);
