@@ -21,6 +21,9 @@
 		.search-mobile {
 			display: none;
 		}
+        .mobile-desk {
+            display: block;
+        }
 		.main-menu > ul .book-now a {
 			margin-left: 15px;
 			display: inline-block;
