@@ -1,0 +1,133 @@
+@media only screen and (min-width: 1921px) and (max-width: 4800px) {}
+@media only screen and (min-width: 1440px) and (max-width: 1599px) {}
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {}
+@media only screen and (min-width: 1024px) and (max-width: 1279px){}
+
+@media all and (max-width:1439px){
+    .container{
+        max-width: 90%;
+    }
+   
+}
+
+@media all and (max-width:1140px){
+	
+}
+
+@media all and (max-width:991px){
+		.main-menu > ul {
+			flex-direction: column;
+		}
+		.search-mobile {
+			display: none;
+		}
+		.main-menu > ul .book-now a {
+			margin-left: 15px;
+			display: inline-block;
+			margin-top: 6px;
+		}
+
+		.main-menu > ul ul{
+			 position: relative;
+			top: 0;
+			left: 0;
+			background: transparent;
+			padding: 0;
+			padding-left: 45px;
+			-webkit-transition: 0.9s;
+			-o-transition: 0.9s;
+			transition: 0.9s;
+			display: none;
+		}
+		.show-menu{
+	        display: block;
+	    }
+	     .main-menu > ul ul.show-menu {
+        visibility: visible;
+         opacity: 1;
+         -webkit-transition: 0.9s !important;
+         -o-transition: 0.9s !important;
+         transition: 0.9s !important;
+         display: block;
+      }
+
+	   .sidepanel {
+        height: 100%; 
+        width: 45%; 
+        position: fixed; 
+        z-index: 1; 
+        top: 0;
+        left: -100%;
+        background-color: #111;
+        overflow-x: hidden;
+        overflow-y: auto;
+        padding-top: 60px; 
+        -webkit-transition: 0.5s; 
+        -o-transition: 0.5s; 
+        transition: 0.5s; 
+      }
+      .sidepanel a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+      }
+
+
+    .sidepanel a:hover {
+        color: #f1f1f1;
+    }
+
+
+    .sidepanel .closebtn {
+        position: absolute;
+        top: 0;
+        right: 15px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    .openbtn {
+        font-size: 22px;
+        cursor: pointer;
+        background-color: transparent;
+        color: var(--secundery-color);
+        padding: 6px 13px;
+        border: none;
+        position: relative;
+        top: -3px;
+    }
+    .main-menu-flex {
+		justify-content: space-between;
+	}
+
+
+
+
+
+}
+
+@media all and (max-width:767px){
+	
+}
+
+@media all and (max-width:575px){
+	
+}
+
+@media all and (max-width:413px){
+  
+}
+
+@media all and (max-width:374px){
+
+}
+
+
+
+
+
+
