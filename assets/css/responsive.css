@@ -219,6 +219,19 @@
     .footer-bottom {
         flex-direction: column;
     }
+    figure.effect-layla h3 {
+        width: 80%;
+    }
+    figure.effect-layla:hover p {
+        width: 65%;
+    }
+    figure.effect-layla h2 {
+        font-size: 28px;
+    }
+
+
+
+}
 
 
 
