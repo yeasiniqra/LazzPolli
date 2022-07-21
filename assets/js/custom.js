@@ -76,7 +76,7 @@ for (var x = 0; x < allHasChildren.length; x++) {
 
 
 // click add class
-var allHasChildren = document.querySelectorAll(".add-to-cart");
+var allHasChildren = document.querySelectorAll(".book-search-btn");
 for (var x = 0; x < allHasChildren.length; x++) {
     allHasChildren[x].onclick = function() {
         var subMenu = this.parentNode.getElementsByClassName("add-tocart-overlay")[0];

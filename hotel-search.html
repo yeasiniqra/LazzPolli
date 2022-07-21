@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <title>Lazz Polli Resort</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo-01.png" />
+
+        <!-- splide CSS -->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+        <!-- Fontawesome CSS -->
+        <link rel="stylesheet" href="assets/css/splide.min.css" />
+        <!-- Main Stylesheet -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" media="all" />
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+        <!--=====================================
+                 Start header area
+         ========================================-->
+        <header class="main-header-area" id="header">
+            <div class="header-top-area">
+                <div class="container">
+                    <!-- header top area -->
+                    <div class="header-top-flex d-flexx">
+                        <div class="header-top-left">
+                            <ul class="d-flex al-center">
+                                <li>
+                                    <a href="tel:01778-772327"><i class="fa fa-volume-control-phone" aria-hidden="true"></i><span class="ex-number">+88 01778-772327</span></a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@lazzpolli.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>info@lazzpolli.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header-top-right">
+                            <ul class="d-flex">
+                                <li>
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- header top area -->
+                    <!-- main menu area -->
+                    <div class="main-menu-flex">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/images/logo-white.png" alt="logo" /></a>
+                        </div>
+                        <!-- mobile menu -->
+                        <button class="mobile-desk openbtn" onclick="openNav()">&#9776;</button>
+                        <!-- mobile menu -->
+                        <div id="mySidepanel" class="main-menu sidepanel">
+                            <a href="javascript:void(0)" class="mobile-desk closebtn" onclick="closeNav()">&times;</a>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li class="active"><a href="hotel-search.html">Search Room</a></li>
+                                <li><a href="room.html">Rooms</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="#">About</a></li>
+                                <li class="prent-dropdown">
+                                    <a href="#">Other Page <span class="caret"></span></a>
+                                    <ul class="child-dropdown">
+                                        <li><a href="#">Gallery</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Resort Amenities</a></li>
+                                        <li><a href="#">Events</a></li>
+                                        <li><a href="#">Our Restaurant</a></li>
+                                        <li><a href="#">Spa and Wellness</a></li>
+                                        <li><a href="#">Activities</a></li>
+                                        <li><a href="#">Activities More</a></li>
+                                        <li><a href="#">Coming Soon</a></li>
+                                    </ul>
+                                </li>
+                                <li class="search-mobile">
+                                    <a href="#"><i class="fa fa-search openBtn" onclick="openSearch()"></i> </a>
+                                </li>
+                                <li class="book-now"><a href="hotel-search.html">Book Now</a></li>
+                                <!-- open search modal -->
+                                <div id="myOverlay" class="overlay">
+                                    <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+                                    <div class="overlay-content">
+                                        <form action="#">
+                                            <input type="text" placeholder="Search.." name="search" />
+                                            <button type="submit"><i class="fa fa-search"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- open search modal -->
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- main menu area -->
+                </div>
+            </div>
+            <div class="hide-menu animi slideInDown">
+                <div class="container">
+                    <!-- main menu area -->
+                    <div class="main-menu-flex">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/images/logo-black.png" alt="logo" /></a>
+                        </div>
+                        <!-- mobile menu -->
+                        <button class="mobile-desk openbtn" onclick="openNav()">&#9776;</button>
+                        <!-- mobile menu -->
+                        <div id="mySidepanel2" class="main-menu sidepanel">
+                            <a href="javascript:void(0)" class="mobile-desk closebtn" onclick="closeNav()">&times;</a>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li class="active"><a href="hotel-search.html">Search Room</a></li>
+                                <li><a href="room.html">Rooms</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="#">About</a></li>
+                                <li class="prent-dropdown">
+                                    <a href="#">Other Page <span class="caret"></span></a>
+                                    <ul class="child-dropdown">
+                                        <li><a href="#">Gallery</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Resort Amenities</a></li>
+                                        <li><a href="#">Events</a></li>
+                                        <li><a href="#">Our Restaurant</a></li>
+                                        <li><a href="#">Spa and Wellness</a></li>
+                                        <li><a href="#">Activities</a></li>
+                                        <li><a href="#">Activities More</a></li>
+                                        <li><a href="#">Coming Soon</a></li>
+                                    </ul>
+                                </li>
+                                <li class="search-mobile">
+                                    <a href="#"><i class="fa fa-search openBtn" onclick="openSearch()"></i> </a>
+                                </li>
+                                <li class="book-now"><a href="hotel-search.html">Book Now</a></li>
+                                <!-- open search modal -->
+                                <div id="myOverlay" class="overlay">
+                                    <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+                                    <div class="overlay-content">
+                                        <form action="#">
+                                            <input type="text" placeholder="Search.." name="search" />
+                                            <button type="submit"><i class="fa fa-search"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- open search modal -->
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- main menu area -->
+                </div>
+            </div>
+        </header>
+        <!--=====================================
+                 End header area
+         ========================================-->
+
+        <!--=====================================
+                 Start banner area
+         ========================================-->
+        <section class="banner-area other-page-area">
+            <div class="container">
+                <div class="hotel-booking-search">
+                    <form name="hb-search-form" action="">
+                        <div class="book_table_inner">
+                            <div class="book_table_item">
+                                <div class="input-append">
+                                    <!-- <input type="date" name="check_in_date" id="" value="" placeholder="Arrival Date" autocomplete="off" /> -->
+                                    <input type="text" placeholder="Arrival Date" onfocus="(this.type='date')">
+                                    <span class="add-on"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                                </div>
+                            </div>
+                            <div class="book_table_item">
+                                <div class="input-append">
+                                    <!-- <input type="date" name="check_out_date" id="" value="" placeholder="Departure Date" autocomplete="off" /> -->
+                                     <input type="text" placeholder="Departure Date" onfocus="(this.type='date')">
+                                    <span class="add-on"><i class="fa fa-calendar" aria-hidden="true"></i> </span>
+                                </div>
+                            </div>
+                            <div class="book_table_item">
+                                <select name="adults_capacity">
+                                    <option value="0">Adults</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                            <div class="book_table_item">
+                                <select name="max_child">
+                                    <option value="0">Children</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                            </div>
+                            <div class="book_table_item">
+                                <button type="submit">Check Availability</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--=====================================
+                 End banner area
+         ========================================-->
+        <section class="room-search-area">
+            <div class="container">
+                <div class="room-search-cart-main">
+                    <!-- room search left -->
+                    <div class="room-search-cart-left">
+                        <div class="room-search-inner-content">
+                          <!-- search filter -->
+                          <div class="search-filter-main">
+                              <div class="search-f-left">
+                                  <a href="#"><i class="fa fa-filter" aria-hidden="true"></i> Filter Your Search</a>
+                              </div>
+                              <div class="search-f-right">
+                                 <a href="#">Rates are in (BDT)</a>
+                                  <a class="active" href="#">Show Price : <span>Price For Whole Stay</span></a>
+                              </div>
+                          </div>
+                           <!-- search filter -->
+
+                           <!-- search room single -->
+                           <div class="search-room-main-items-grid">
+                                <!-- single item -->
+                               <div class="min-items-inner-single">
+                                   <div class="search-room-img">
+                                      <a href="#"><img src="assets/images/p1.jpg" alt="room"></a>
+                                    </div>
+                                    <div class="search-room-content">
+                                        <h4>Superior King</h4>
+                                        <div class="super-king-flex">
+                                            <div class="sp-left">
+                                                <span class="sp-margin">Special Conditions</span>
+                                                <p>Room Rates Exclusive of Ser. Chg. & VAT</p>
+                                                <p>Booked 1 time(s) today</p>
+                                                <span>Breakfast is included in the room rates </span>
+                                            </div>
+                                            <div class="sp-right">
+                                                <h4>BDT <span>9,800</span></h4>
+                                                <small>Price for 1 Night </small>
+                                                <small> 2 Adults , 1 Child, 1 Room  </small>
+                                            </div>
+                                        </div>
+                                        <div class="common-btn book-search-btn">
+                                            <a href="#">Book Room</a>
+                                            <div class="add-tocart-overlay">
+                                                <div class="inner-card-flex">
+                                                    <div class="qty-holder2">
+                                                        <span onclick="inc()" class="qty-dec-btn2" title="Dec">-</span>
+                                                        <aside>1 Item Add</aside>
+                                                        <span onclick="dec()" class="qty-inc-btn2" title="Inc">+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                               </div>
+                                <!-- single item -->
+                               <div class="min-items-inner-single">
+                                   <div class="search-room-img">
+                                      <a href="#"><img src="assets/images/p2.jpg" alt="room"></a>
+                                    </div>
+                                    <div class="search-room-content">
+                                        <h4>Superior Twin </h4>
+                                        <div class="super-king-flex">
+                                            <div class="sp-left">
+                                                <span class="sp-margin">Special Conditions</span>
+                                                <p>Room Rates Exclusive of Ser. Chg. & VAT</p>
+                                                <p>Booked 1 time(s) today</p>
+                                                <span>Breakfast is included in the room rates </span>
+                                            </div>
+                                            <div class="sp-right">
+                                                <h4>BDT <span>9,800</span></h4>
+                                                <small>Price for 1 Night </small>
+                                                <small> 2 Adults , 1 Child, 1 Room  </small>
+                                            </div>
+                                        </div>
+                                        <div class="common-btn book-search-btn">
+                                            <a href="#">Book Room</a>
+                                            <div class="add-tocart-overlay">
+                                                <div class="inner-card-flex">
+                                                    <div class="qty-holder2">
+                                                        <span onclick="inc()" class="qty-dec-btn2" title="Dec">-</span>
+                                                        <aside>1 Item Add</aside>
+                                                        <span onclick="dec()" class="qty-inc-btn2" title="Inc">+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                               </div>
+                                <!-- single item -->
+                               <div class="min-items-inner-single">
+                                   <div class="search-room-img">
+                                      <a href="#"><img src="assets/images/p3.jpg" alt="room"></a>
+                                    </div>
+                                    <div class="search-room-content">
+                                        <h4>Superior King</h4>
+                                        <div class="super-king-flex">
+                                            <div class="sp-left">
+                                                <span class="sp-margin">Special Conditions</span>
+                                                <p>Room Rates Exclusive of Ser. Chg. & VAT</p>
+                                                <p>Booked 1 time(s) today</p>
+                                                <span>Breakfast is included in the room rates </span>
+                                            </div>
+                                            <div class="sp-right">
+                                                <h4>BDT <span>9,800</span></h4>
+                                                <small>Price for 1 Night </small>
+                                                <small> 2 Adults , 1 Child, 1 Room  </small>
+                                            </div>
+                                        </div>
+                                        <div class="common-btn book-search-btn">
+                                            <a href="#">Book Room</a>
+                                            <div class="add-tocart-overlay">
+                                                <div class="inner-card-flex">
+                                                    <div class="qty-holder2">
+                                                        <span onclick="inc()" class="qty-dec-btn2" title="Dec">-</span>
+                                                        <aside>1 Item Add</aside>
+                                                        <span onclick="dec()" class="qty-inc-btn2" title="Inc">+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                               </div>
+                                <!-- single item -->
+                               <div class="min-items-inner-single">
+                                   <div class="search-room-img">
+                                      <a href="#"><img src="assets/images/p4.jpg" alt="room"></a>
+                                    </div>
+                                    <div class="search-room-content">
+                                        <h4>Superior Twin</h4>
+                                        <div class="super-king-flex">
+                                            <div class="sp-left">
+                                                <span class="sp-margin">Special Conditions</span>
+                                                <p>Room Rates Exclusive of Ser. Chg. & VAT</p>
+                                                <p>Booked 1 time(s) today</p>
+                                                <span>Breakfast is included in the room rates </span>
+                                            </div>
+                                            <div class="sp-right">
+                                                <h4>BDT <span>9,800</span></h4>
+                                                <small>Price for 1 Night </small>
+                                                <small> 2 Adults , 1 Child, 1 Room  </small>
+                                            </div>
+                                        </div>
+                                        <div class="common-btn book-search-btn">
+                                            <a href="#">Book Room</a>
+                                            <div class="add-tocart-overlay">
+                                                <div class="inner-card-flex">
+                                                    <div class="qty-holder2">
+                                                        <span onclick="inc()" class="qty-dec-btn2" title="Dec">-</span>
+                                                        <aside>1 Item Add</aside>
+                                                        <span onclick="dec()" class="qty-inc-btn2" title="Inc">+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                               </div>
+
+                           </div>
+                           <!-- search room single -->
+                        </div>
+                    </div>
+                    <!-- room search right -->
+                    <div class="room-search-cart-right">
+                        <div class="shopping-cart">
+                           <h4>Booking Summary</h4>
+                           <div class="summery-main-grid">
+                               <div class="smy-date">
+                                   <span> Dates : <small>2022-07-21</small> - <small>2022-07-22</small> </span>
+                               </div>
+                               <div class="smy-date">
+                                   <span> Night  <small>1</small></span>
+                               </div>
+                               <div class="super-flex-item">
+                                   <div class="spk-left">
+                                       <p> Superior King</p>
+                                       <p> 2 Adults 1 Child 1 Room</p>
+                                       <a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                                   </div>
+                                   <div class="spk-right">
+                                       <span><i class="fa fa-times" aria-hidden="true"></i></span>
+                                       <h5>BDT <span>9,800</span></h5>
+                                   </div>
+                               </div>
+                               <div class="total-amount">
+                                   <span>Total</span>
+                                   <h5>BDT <span>9,800</span></h5>
+                               </div>
+                               <div class="common-btn book-search-btn">
+                                    <a href="#">Check Out</a>
+                                 </div>
+                           </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=====================================
+                 start footer area
+         ========================================-->
+        <div class="footer-area-top">
+            <div class="container">
+                <!-- footer top -->
+                <div class="footer-top-flex">
+                    <div class="header-top-right">
+                        <ul class="d-flex">
+                            <li>
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-content">
+                        <p>Lazz Polli Convention, Hemayetpur Saver</p>
+                        <div class="header-top-left">
+                            <ul class="d-flex al-center">
+                                <li>
+                                    <a href="tel:01778-772327"><i class="fa fa-volume-control-phone" aria-hidden="true"></i><span class="ex-number">+88 01778-772327</span></a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@lazzpolli.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>info@lazzpolli.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-time">
+                        <span>Local Time</span>
+                        <h1 class="timer__time" id="current-time"></h1>
+                    </div>
+                </div>
+                <!-- footer top -->
+            </div>
+        </div>
+        <section class="footer-area">
+            <div class="container">
+                <div class="footer-main-flex">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="assets/images/logo-white.png" alt="footer logo" /></a>
+                    </div>
+                    <div class="footer-menu">
+                        <div class="footer-menu">
+                            <ul class="footer-links">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Why Us</a></li>
+                                <li><a href="#">Stay</a></li>
+                                <li><a href="#">Dine</a></li>
+                                <li><a href="#">Relax</a></li>
+                                <li><a href="#">Meet</a></li>
+                                <li><a href="#">Book</a></li>
+                                <li><a href="#">Find Us</a></li>
+                                <li><a href="#">Virtual Tours</a></li>
+                                <li><a href="#">Loyalty Program</a></li>
+                                <li><a href="#">Places of Interest</a></li>
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Sitemap</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-news footer-logo">
+                        <div class="footer-marque">
+                            <marquee behavior="scrolling" direction="left" scrollamount="3"><h2>TExplore & Enjoy With Our Resort</h2></marquee>
+                            <div class="footer-overly">
+                                <a href="#"><img src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_vertical.svg" alt="img" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer btm -->
+                <div class="footer-bottom">
+                    <p>&copy; 2022. Lazz Polli Resort. All rights reserved.</p>
+                    <span>Site by - <a target="_blank" href="https://iqrasys.com">Iqrasys Solutions Ltd</a></span>
+                </div>
+            </div>
+        </section>
+        <!--=====================================
+                 End footer area
+         ========================================-->
+
+        <!--=================================================
+                        start back to top area
+         ===================================================-->
+        <a id="toTop" onclick="abcd()"></a>
+        <!--=================================================
+                      End start back to top area
+        ===================================================-->
+
+        <!-- Js Files -->
+        <!-- Custom Scripts -->
+        <script src="assets/js/splide.min.js"></script>
+        <script src="assets/js/custom.js"></script>
+    </body>
+</html>
