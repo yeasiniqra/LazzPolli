@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <title>Lazz Polli Resort</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo-01.png" />
+
+        <!-- splide CSS -->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+        <!-- Fontawesome CSS -->
+        <link rel="stylesheet" href="assets/css/splide.min.css" />
+        <!-- Main Stylesheet -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" media="all" />
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+        <!--=====================================
+                 Start header area
+         ========================================-->
+        <header class="main-header-area" id="header">
+            <div class="header-top-area">
+                <div class="container">
+                    <!-- header top area -->
+                    <div class="header-top-flex d-flexx">
+                        <div class="header-top-left">
+                            <ul class="d-flex al-center">
+                                <li>
+                                    <a href="tel:01778-772327"><i class="fa fa-volume-control-phone" aria-hidden="true"></i><span class="ex-number">+88 01778-772327</span></a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@lazzpolli.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>info@lazzpolli.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header-top-right">
+                            <ul class="d-flex">
+                                <li>
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- header top area -->
+                    <!-- main menu area -->
+                    <div class="main-menu-flex">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/images/logo-white.png" alt="logo" /></a>
+                        </div>
+                        <!-- mobile menu -->
+                        <button class="mobile-desk openbtn" onclick="openNav()">&#9776;</button>
+                        <!-- mobile menu -->
+                        <div id="mySidepanel" class="main-menu sidepanel">
+                            <a href="javascript:void(0)" class="mobile-desk closebtn" onclick="closeNav()">&times;</a>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="hotel-search.html">Search Room</a></li>
+                                <li><a href="room.html">Rooms</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="#">About</a></li>
+                                <li class="prent-dropdown">
+                                    <a href="#">Other Page <span class="caret"></span></a>
+                                    <ul class="child-dropdown">
+                                        <li><a href="#">Gallery</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Resort Amenities</a></li>
+                                        <li><a href="#">Events</a></li>
+                                        <li><a href="#">Our Restaurant</a></li>
+                                        <li><a href="#">Spa and Wellness</a></li>
+                                        <li><a href="#">Activities</a></li>
+                                        <li><a href="#">Activities More</a></li>
+                                        <li><a href="#">Coming Soon</a></li>
+                                    </ul>
+                                </li>
+                                <li class="search-mobile">
+                                    <a href="#"><i class="fa fa-search openBtn" onclick="openSearch()"></i> </a>
+                                </li>
+                                <li class="book-now"><a href="hotel-search.html">Book Now</a></li>
+                                <!-- open search modal -->
+                                <div id="myOverlay" class="overlay">
+                                    <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+                                    <div class="overlay-content">
+                                        <form action="#">
+                                            <input type="text" placeholder="Search.." name="search" />
+                                            <button type="submit"><i class="fa fa-search"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- open search modal -->
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- main menu area -->
+                </div>
+            </div>
+            <div class="hide-menu animi slideInDown">
+                <div class="container">
+                    <!-- main menu area -->
+                    <div class="main-menu-flex">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/images/logo-black.png" alt="logo" /></a>
+                        </div>
+                        <!-- mobile menu -->
+                        <button class="mobile-desk openbtn" onclick="openNav()">&#9776;</button>
+                        <!-- mobile menu -->
+                        <div id="mySidepanel2" class="main-menu sidepanel">
+                            <a href="javascript:void(0)" class="mobile-desk closebtn" onclick="closeNav()">&times;</a>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="hotel-search.html">Search Room</a></li>
+                                <li><a href="room.html">Rooms</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="#">About</a></li>
+                                <li class="prent-dropdown">
+                                    <a href="#">Other Page <span class="caret"></span></a>
+                                    <ul class="child-dropdown">
+                                        <li><a href="#">Gallery</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Resort Amenities</a></li>
+                                        <li><a href="#">Events</a></li>
+                                        <li><a href="#">Our Restaurant</a></li>
+                                        <li><a href="#">Spa and Wellness</a></li>
+                                        <li><a href="#">Activities</a></li>
+                                        <li><a href="#">Activities More</a></li>
+                                        <li><a href="#">Coming Soon</a></li>
+                                    </ul>
+                                </li>
+                                <li class="search-mobile">
+                                    <a href="#"><i class="fa fa-search openBtn" onclick="openSearch()"></i> </a>
+                                </li>
+                                <li class="book-now"><a href="hotel-search.html">Book Now</a></li>
+                                <!-- open search modal -->
+                                <div id="myOverlay" class="overlay">
+                                    <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+                                    <div class="overlay-content">
+                                        <form action="#">
+                                            <input type="text" placeholder="Search.." name="search" />
+                                            <button type="submit"><i class="fa fa-search"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- open search modal -->
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- main menu area -->
+                </div>
+            </div>
+        </header>
+        <!--=====================================
+                 End header area
+         ========================================-->
+
+        <!--=====================================
+                 Start banner area
+         ========================================-->
+        <section class="banner-area other-page-area">
+            <div class="container">
+                <div class="common-heading">
+                    <h2>Hotel Checkout</h2>
+                </div>
+            </div>
+        </section>
+        <!--=====================================
+                 End banner area
+         ========================================-->
+
+        <!--=====================================
+                 Start checkout area
+         ========================================-->
+        <section class="room-search-area hotel-checkout-area">
+            <div class="container">
+                <div class="room-search-cart-main hotel-checkout-main">
+                    <!-- room search left -->
+                    <div class="room-search-cart-left">
+                        <div class="room-search-inner-content">
+                            <!-- search room single -->
+                            <div id="niiceeTab">
+                                <!-- Tab links -->
+                                <nav class="niiceeTabBtn">
+                                    <button id="defaultOpen" class="tablinks" onclick="tabOpener(event, 'Tab1')">New Customer</button>
+                                    <button class="tablinks" onclick="tabOpener(event, 'Tab2')">Existing customer</button>
+                                </nav>
+
+                                <!-- Tab content -->
+                                <div class="niiceeTabContent">
+                                    <div id="Tab1" class="tabcontent">
+                                        <!-- customar details main -->
+                                        <div class="customar-detaits-main">
+                                            <h2>Customer Details</h2>
+                                            <div class="customar-dts-from">
+                                                <form>
+                                                    <div class="customar-dts-from-flex">
+                                                        <!-- single item -->
+                                                        <div class="custom-input-resort">
+                                                            <label for="fname">First name *</label>
+                                                            <input type="text" name="" id="fname" placeholder="First Name" />
+                                                        </div>
+                                                        <!-- single item -->
+                                                        <div class="custom-input-resort">
+                                                            <label for="ename">Email *</label>
+                                                            <input type="email" name="" id="ename" placeholder="Email" />
+                                                        </div>
+
+                                                        <!-- single item -->
+                                                        <div class="custom-input-resort">
+                                                            <label for="lname">Last name *</label>
+                                                            <input type="text" name="" id="lname" placeholder="Postal Code" />
+                                                        </div>
+                                                        <!-- single item -->
+                                                        <div class="custom-input-resort">
+                                                            <label for="cname">Country *</label>
+                                                            <select name="" id="cname">
+                                                                <option>Bangladesh</option>
+                                                                <option>India</option>
+                                                                <option>Ugenda</option>
+                                                            </select>
+                                                        </div>
+                                                        <!-- single item -->
+                                                        <div class="custom-input-resort">
+                                                            <label for="aname">Address *</label>
+                                                            <input type="text" name="" id="aname" placeholder="Address" />
+                                                        </div>
+                                                        <!-- single item -->
+                                                        <div class="custom-input-resort">
+                                                            <label for="pname">Postal Code *</label>
+                                                            <input type="text" name="" id="pname" placeholder="Postal Code" />
+                                                        </div>
+                                                        <!-- single item -->
+                                                        <div class="custom-input-resort">
+                                                            <label for="pname">Phone *</label>
+                                                            <input type="text" name="" id="pname" placeholder="Phone" />
+                                                        </div>
+
+                                                        <!-- single item -->
+                                                        <div class="custom-input-resort">
+                                                            <label for="cname">City *</label>
+                                                            <input type="text" name="" id="cname" placeholder="City" />
+                                                        </div>
+
+                                                        <!-- single item -->
+                                                        <div class="custom-input-resort">
+                                                            <label for="faname">Fax *</label>
+                                                            <input type="text" name="" id="fname" placeholder="Fax" />
+                                                        </div>
+
+                                                        <!-- single item -->
+                                                        <div class="custom-input-resort">
+                                                            <label for="stname">State *</label>
+                                                            <input type="text" name="" id="stname" placeholder="State" />
+                                                        </div>
+
+                                                        <!-- single item -->
+                                                        <div class="custom-input-resort">
+                                                            <label for="idname">Identity *</label>
+                                                            <select name="" id="idname">
+                                                                <option>Passport</option>
+                                                                <option>Driving License</option>
+                                                                <option>National ID</option>
+                                                            </select>
+                                                        </div>
+
+                                                        <!-- single item -->
+                                                        <div class="custom-input-resort">
+                                                            <label for="noname">No *</label>
+                                                            <input type="text" name="" id="noname" placeholder="No" />
+                                                        </div>
+
+                                                        <!-- single item -->
+                                                        <div class="custom-input-resort">
+                                                            <label for="exname">Expiry Date *</label>
+                                                            <input type="Date" name="" id="exname" placeholder="Expiry Date" />
+                                                        </div>
+
+                                                        <!-- single item -->
+                                                        <div class="custom-input-resort">
+                                                            <label for="dbname">Date of Birth *</label>
+                                                            <input type="Date" name="" id="dbname" placeholder="Date of Birth" />
+                                                        </div>
+
+                                                        <p class="trams-condition">
+                                                            <label>
+                                                                <input type="checkbox" name="tos" value="1" />
+                                                                I agree with <a href="#" target="_blank">Terms and Conditions</a>
+                                                            </label>
+                                                        </p>
+                                                        <div class="book_table_item dtl-btn">
+                                                            <button data-modal="modal-one" type="submit">Check Out</button>
+                                                        </div>
+                                                        <!-- modal for click -->
+                                                        <div class="modal" id="modal-one">
+                                                            <div class="modal-bg modal-exit"></div>
+                                                            <div class="modal-container">
+                                                                <h1>Amazing Modal</h1>
+                                                                <h2>Pure Vanilla JavaScript</h2>
+                                                                <button class="modal-close modal-exit">×</button>
+                                                            </div>
+                                                        </div>
+                                                        <!-- modal for click -->
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <!-- customar details main -->
+                                    </div>
+                                    <div id="Tab2" class="tabcontent">
+                                        <div class="ex-customar">
+                                            <form>
+                                                <div class="custom-input-resort">
+                                                    <label for="ename">Email </label>
+                                                    <input type="email" name="" id="ename" placeholder="Email" />
+                                                </div>
+                                                <div class="book_table_item dtl-btn">
+                                                    <button type="submit">Apply</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- search room single -->
+                        </div>
+                    </div>
+                    <!-- room search right -->
+                    <div class="room-search-cart-right">
+                        <div class="shopping-cart">
+                            <h4>Your booking summary</h4>
+                            <div class="summery-main-grid checkout-summery-main-grid">
+                                <div class="smy-date">
+                                    <span> Lazz Polli Resort </span>
+                                    <div class="ratting">
+                                        <div class="rate">
+                                            <input type="radio" id="star5" name="rate" value="5" />
+                                            <label for="star5" title="text">5 stars</label>
+                                            <input type="radio" id="star4" name="rate" value="4" />
+                                            <label for="star4" title="text">4 stars</label>
+                                            <input type="radio" id="star3" name="rate" value="3" />
+                                            <label for="star3" title="text">3 stars</label>
+                                            <input type="radio" id="star2" name="rate" value="2" />
+                                            <label for="star2" title="text">2 stars</label>
+                                            <input type="radio" id="star1" name="rate" value="1" />
+                                            <label for="star1" title="text">1 star</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="address-check-out">
+                                    <p>Lazz Polli Convention, Hemayetpur Saver, Bangladesh.</p>
+                                    <div class="header-top-left">
+                                        <ul class="d-flex al-center">
+                                            <li>
+                                                <a href="tel:01778-772327"><i class="fa fa-volume-control-phone" aria-hidden="true"></i><span class="ex-number">+88 01778-772327</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="mailto:info@lazzpolli.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>info@lazzpolli.com</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="smy-date">
+                                    <div class="check-in-out">
+                                        <h6>Check-In</h6>
+                                        <small>2022-07-23</small>
+                                        <h5>1 Night Stay</h5>
+                                        <div class="common-btn book-search-btn smr-book-search-btn">
+                                            <a href="#">Change Dates</a>
+                                        </div>
+                                    </div>
+                                    <div class="check-in-out">
+                                        <h6>Check-Out</h6>
+                                        <small>2022-07-24</small>
+                                    </div>
+                                </div>
+                                <h4>Rooms & Rates ( Price for 1 Night )</h4>
+                                <div class="super-flex-item">
+                                    <div class="spk-left">
+                                        <p><span>Room : </span>Superior King</p>
+                                        <p><span>Pax Details : </span> 2 Adults 1 Child 1 room</p>
+                                    </div>
+                                </div>
+                                <div class="special-conditions-check">
+                                    <span>Special conditions :</span>
+                                    <small>Breakfast is included in the room rates</small>
+                                    <div class="room-chargeq">
+                                        <div class="room-chargeq-single">
+                                            <small>Room Charges </small>
+                                            <small>BDT 9,100</small>
+                                        </div>
+                                        <div class="room-chargeq-single">
+                                            <small>Taxes & Fees </small>
+                                            <small>BDT 9,100 </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="total-rom-service">
+                                    <div class="room-chargeq-single">
+                                        <small>Total Room Charges </small>
+                                        <small>BDT 9,100</small>
+                                    </div>
+                                    <div class="room-chargeq-single">
+                                        <small>Total Taxes </small>
+                                        <small>BDT 9,100</small>
+                                    </div>
+                                    <div class="room-chargeq-single">
+                                        <small>Total Price (Inc. Of Taxes) </small>
+                                        <small>BDT 9,100</small>
+                                    </div>
+                                    <div class="room-chargeq-single">
+                                        <small>Total Payable Now </small>
+                                        <small>BDT 9,100</small>
+                                    </div>
+                                    <div class="room-chargeq-single">
+                                        <small>Amount due at time of check-in </small>
+                                        <small>BDT 9,100</small>
+                                    </div>
+                                    <a class="brack-down-2022" href="#">Price Breakdown / Rate Details</a>
+                                </div>
+                                <div class="total-amount">
+                                    <span> Pay Now</span>
+                                    <h5>BDT <span>9,800</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=====================================
+                 End checkout area
+         ========================================-->
+
+        <!--=====================================
+                 start footer area
+         ========================================-->
+        <div class="footer-area-top">
+            <div class="container">
+                <!-- footer top -->
+                <div class="footer-top-flex">
+                    <div class="header-top-right">
+                        <ul class="d-flex">
+                            <li>
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-content">
+                        <p>Lazz Polli Convention, Hemayetpur Saver</p>
+                        <div class="header-top-left">
+                            <ul class="d-flex al-center">
+                                <li>
+                                    <a href="tel:01778-772327"><i class="fa fa-volume-control-phone" aria-hidden="true"></i><span class="ex-number">+88 01778-772327</span></a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@lazzpolli.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>info@lazzpolli.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-time">
+                        <span>Local Time</span>
+                        <h1 class="timer__time" id="current-time"></h1>
+                    </div>
+                </div>
+                <!-- footer top -->
+            </div>
+        </div>
+        <section class="footer-area">
+            <div class="container">
+                <div class="footer-main-flex">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="assets/images/logo-white.png" alt="footer logo" /></a>
+                    </div>
+                    <div class="footer-menu">
+                        <div class="footer-menu">
+                            <ul class="footer-links">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Why Us</a></li>
+                                <li><a href="#">Stay</a></li>
+                                <li><a href="#">Dine</a></li>
+                                <li><a href="#">Relax</a></li>
+                                <li><a href="#">Meet</a></li>
+                                <li><a href="#">Book</a></li>
+                                <li><a href="#">Find Us</a></li>
+                                <li><a href="#">Virtual Tours</a></li>
+                                <li><a href="#">Loyalty Program</a></li>
+                                <li><a href="#">Places of Interest</a></li>
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Sitemap</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-news footer-logo">
+                        <div class="footer-marque">
+                            <marquee behavior="scrolling" direction="left" scrollamount="3"><h2>TExplore & Enjoy With Our Resort</h2></marquee>
+                            <div class="footer-overly">
+                                <a href="#"><img src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_vertical.svg" alt="img" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer btm -->
+                <div class="footer-bottom">
+                    <p>&copy; 2022. Lazz Polli Resort. All rights reserved.</p>
+                    <span>Site by - <a target="_blank" href="https://iqrasys.com">Iqrasys Solutions Ltd</a></span>
+                </div>
+            </div>
+        </section>
+        <!--=====================================
+                 End footer area
+         ========================================-->
+
+        <!--=================================================
+                        start back to top area
+         ===================================================-->
+        <a id="toTop" onclick="abcd()"></a>
+        <!--=================================================
+                      End start back to top area
+        ===================================================-->
+
+        <!-- Js Files -->
+        <!-- Custom Scripts -->
+        <script src="assets/js/splide.min.js"></script>
+        <script src="assets/js/custom.js"></script>
+    </body>
+</html>
