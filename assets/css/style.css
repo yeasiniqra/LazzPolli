@@ -1831,7 +1831,7 @@ p.site ul.footer-links li a:before{ content:''; position: absolute; width: 100%;
 	-webkit-box-shadow: 0px 3px 57px 0px rgba(0, 0, 0, 0.18);
 	box-shadow: 0px 3px 57px 0px rgba(0, 0, 0, 0.18);
 	clear: both;
-	padding: 35px 40px 35px 32px;
+	padding: 28px 40px 35px 32px;
 	margin-top: -25px !important;
 	z-index: 20;
 	position: relative;
@@ -1889,7 +1889,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 	color: #fff;
 	border-radius: 5px;
 	cursor: pointer;
-	transition: 0.4s
+	transition: 0.4s;
+	margin-top: 20px;
 }
 .book_table_item > button:hover{
 	background: transparent;
@@ -2506,8 +2507,55 @@ select{
 	margin-top: 10px;
 }
 
-
-
-
+.book_table_item > span {
+	font-weight: 500;
+	display: block;
+	margin-bottom: 5px;
+}
 
 /*modal css*/
+
+
+/**************************************/
+/************other page room dts css*************/
+/************************************/
+.details-room-main-grid-inner {
+	display: grid;
+	grid-template-columns: 7fr 5fr;
+	grid-gap: 40px;
+}
+
+.dts-right-content-inner > h2 {
+	font-size: 35px;
+	text-transform: uppercase;
+}
+
+.dts-right-content-inner > p {
+	font-size: 16px;
+	line-height: 2;
+	margin-top: 15px;
+	text-align: justify;
+}
+
+.dts-heading-content {
+	margin-top: 30px;
+}
+
+.dts-heading-content > h4 > span {
+	font-weight: 400;
+
+}
+
+.search-room-single-main-tab {
+	margin-top: 50px;
+}
+
+.room-detaits-main > h6 {
+	font-weight: 500;
+}
+
+.room-search-cart-left > h3 {
+	margin-bottom: 25px;
+	border-bottom: 2px solid var(--green-color);
+	padding-bottom: 10px;
+}
