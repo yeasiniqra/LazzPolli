@@ -2921,3 +2921,127 @@ select{
 .menu-item-shedul span {
 	font-weight: 700;
 }
+
+
+/**************************************/
+/************other page about us css*************/
+/************************************/
+.about-us-area{
+	padding: 70px 0px;
+}
+
+.about-us-main-grid {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.about-let,
+.about-right {
+	flex: 0 0 50%;
+}
+
+.about-inner-img img {
+	flex: 0 0 50%;
+}
+.about-inner-img {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.about-inner-content {
+	padding: 25px;
+}
+
+.about-inner-content p {
+	margin-bottom: 20px;
+	text-align: justify;
+}
+.container.custom-container {
+	background: #E5E5E5;
+	padding-right: 0;
+	padding-left: 0;
+}
+.about-inner-content .other-page-heading {
+	margin-bottom: 15px;
+}
+
+.our-service-area{
+	padding-bottom: 50px;
+}
+
+.service-single-item-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 35px;
+	margin-top: 35px;
+}
+
+.service-single-item {
+	background: #fff;
+	box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.3);
+	padding: 35px;
+	cursor: pointer;
+	transition: background 0.4s;
+}
+.service-single-item:hover{
+	background: var(--secundery-color);
+}
+
+.service-single-item:hover h3, 
+.service-single-item:hover p {
+	color: #fff;
+}
+
+.ser-icon {
+	width: 55px;
+	height: 55px;
+	text-align: center;
+	border: 1px solid var(--secundery-color);
+	border-radius: 50%;
+	line-height: 55px;
+	margin-bottom: 15px;
+	background: #fff;
+}
+
+.service-single-item h3 {
+	margin-bottom: 5px;
+}
+.staff-main-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 25px;
+	margin-top: 35px;
+}
+
+.stf-content {
+	text-align: center;
+	margin-top: 15px;
+}
+
+.staff-single-item {
+	box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.3);
+	border-radius: 0px 0px 15px;
+}
+
+.stf-content {
+	text-align: center;
+	margin-top: 15px;
+	padding-bottom: 25px;
+}
+
+.stf-content h4 {
+	font-size: 20px;
+	font-weight: 700;
+	display: block;
+	padding-bottom: 5px;
+}
+.stf-content span {
+	font-size: 14px;
+	font-weight: 600;
+	color: var(--main-color);
+}
+
+.our-resort-staff-area.our-service-area {
+	padding-top: 50px;
+}
