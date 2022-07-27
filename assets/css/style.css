@@ -2943,6 +2943,7 @@ select{
 
 .ab-img-flex {
 	flex: 0 0 50%;
+	margin-bottom: -4px;
 }
 .about-inner-img {
 	display: flex;
