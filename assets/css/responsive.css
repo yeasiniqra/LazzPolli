@@ -10,8 +10,11 @@
    
 }
 
-@media all and (max-width:1140px){
-	
+@media all and (max-width:1280px){
+	 .book_table_item > button {
+        padding: 0px 15px;
+        font-size: 14px;
+    }
 }
 
 @media all and (max-width:991px){
@@ -121,6 +124,20 @@
     .support-gif-icon::after {
         display: none;
     }
+    .book_table_item {
+        flex: 0 0 48%;
+        margin-bottom: 15px;
+    }
+    .book_table_inner {
+        flex-wrap: wrap;
+    }
+    .book_table_item > button {
+        margin-top: 0px;
+    }
+    .room-search-cart-main {
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+    }
 
 
 
@@ -183,7 +200,9 @@
     .footer-bottom {
         padding-top: 58px;
     }
-
+    .customar-dts-from-inner-flex {
+        flex-wrap: wrap;
+    }
 
 }
 
@@ -228,23 +247,68 @@
     figure.effect-layla h2 {
         font-size: 28px;
     }
+    .book_table_item {
+        flex: 0 0 100%;
+    }
+    .search-filter-main {
+        flex-wrap: wrap;
+    }
+    .search-f-left {
+        flex: 0 0 100%;
+    }
+    .search-f-left > a {
+        display: block;
+    }
+    .search-f-right > a:first-child {
+        border: none;
+    }
+    .min-items-inner-single {
+        flex-wrap: wrap;
+    }
+    .search-room-img {
+        flex: 0 0 100%;
+        margin-right: 0px;
+    }
+    .search-room-content {
+        flex: 0 0 100%;
+        margin-top: 35px;
+    }
+    .other-page-area .common-heading h2 {
+        font-size: 36px;
+    }
+    .room-search-cart-left > h3 {
+        font-size: 16px;
+        text-align: justify;
+    }
+    .niiceeTabBtn button {
+        font-size: 14px;
+        padding: 15px 22px;
+    }
+    .customar-dts-from-inner-flex .custom-input-resort {
+        flex: 0 0 100%;
+        margin-bottom: 10px;
+    }
+    .customar-dts-from-inner-flex.customar-dts-from-inner-flex2 .custom-input-resort {
+        flex: 0 0 100%;
+        margin-bottom: 10px;
+    }
+    .ex-customar .custom-input-resort {
+        width: 100%;
+    }
+        
+
+
 
 
 
 }
 
 
-
-
-
-
-
-
-
-
-}
 
 @media all and (max-width:413px){
+    .main-menu > ul ul {
+        padding-left: 0px;
+    }
   
 }
 

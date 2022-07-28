@@ -566,8 +566,6 @@ p {
 	opacity: 0.8;
 	padding: 0;
 	position: absolute !important;
-	/* bottom: 50px !important; */
-	/* transform: inherit !important; */
 	width: 2.5rem !important;
 	z-index: 1;
 	top: 50%;
