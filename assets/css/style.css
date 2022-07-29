@@ -2065,22 +2065,19 @@ p.site ul.footer-links li a:before{ content:''; position: absolute; width: 100%;
 	border-radius: 5px;
 }
 
-/*input[type="date"]::-webkit-inner-spin-button,
-input[type="date"]::-webkit-calendar-picker-indicator {
-    display: none;
-    -webkit-appearance: none;
-}*/
-
-.add-on {
-	position: absolute;
-	top: 11px;
-	right: 10px;
-	z-index: 2;
+.input-append button {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    pointer-events: none;
+    background: #fff;
+    border: none;
+    padding: 8px;
 }
 
 .input-append {
 	position: relative;
-	z-index: 1;
+
 }
 
 .book_table_item > button {
@@ -2176,23 +2173,16 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .search-room-main-items-grid {
 	margin-top: 40px;
 }
-.search-room-img > a > img {
-	width: 100%;
-	height: auto;
-	-webkit-transition: 0.4s;
-	-o-transition: 0.4s;
+.search-room-img {
+	overflow: hidden;
+	
+}
+.search-room-img > a img{
 	transition: 0.4s;
-	-webkit-transform: scale(0.95);
-	    -ms-transform: scale(0.95);
-	        transform: scale(0.95);
 }
 
-.search-room-img > a > img:hover{
-	-webkit-transform: scale(1);
-	    -ms-transform: scale(1);
-	        transform: scale(1);
-	-webkit-transition: 0.4s;
-	-o-transition: 0.4s;
+.search-room-img > a:hover img{
+	transform: scale(1.2);
 	transition: 0.4s;
 }
 
@@ -3552,4 +3542,65 @@ select{
 
 .asyncGallery__Dots {
 	display: none;
+}
+
+/**************************************/
+/************other page relax css*************/
+/************************************/
+.relax-area{
+	padding: 70px 0px;
+	overflow: hidden;
+}
+.relax-spa-inner-grid {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 60px;
+	align-items: center;
+}
+.relax-spa-img-left {
+	flex: 0 0 48%;
+}
+.relax-spa-img-content {
+	flex: 0 0 48%;
+}
+.relax-spa-img-left{
+	position: relative;
+	overflow: hidden;
+}
+
+.relax-spa-img-left img{
+	transition-duration: 1s;
+}
+
+.relax-spa-img-left:hover img{
+	transform: scale(1.3);
+    transition-duration: 1s;
+}
+
+.relax-spa-img-content p {
+	text-align: justify;
+	padding: 15px 0px;
+}
+.g-btn {
+	color: #000;
+	font-weight: 600;
+	font-size: 15px;
+	display: inline-block;
+	margin-top: 8px;
+	border: 1px solid #871b1b;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+.g-btn i {
+	margin-right: 8px;
+}
+
+.relax-spa-main-grid .relax-spa-inner-grid:nth-child(2n) {
+	flex-direction: row-reverse;
+} 
+
+.relax-spa-img-content h1 {
+	letter-spacing: 5.5px;
 }
