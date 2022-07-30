@@ -440,6 +440,7 @@ p {
 	border: 2px solid transparent;
 	color: #000;
 	margin-left: 10px;
+	border-radius: 5px;
 }
 .main-menu > ul > li.book-now:hover a{
 	background: transparent;
@@ -1282,6 +1283,7 @@ figure.effect-layla:hover p {
 	-webkit-transition: 0.4s;
 	-o-transition: 0.4s;
 	transition: 0.4s;
+	border-radius: 5px;
 }
 
 /**************************************/
@@ -2411,6 +2413,7 @@ p.site ul.footer-links li a:before{ content:''; position: absolute; width: 100%;
 	font-family: 'Poppins', sans-serif;
 	text-transform: capitalize;
 	font-weight: 600;
+	border-radius: 5px;
 }
 .niiceeTabBtn button.active {
 	background-color: var(--secundery-color);
@@ -3272,7 +3275,9 @@ select{
 }
 .our-dise-single-items {
 	-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
-	        box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+	border-radius: 8px;
+	overflow: hidden;
 }
 .our-dise-single-items > h3 {
 	padding: 10px;
