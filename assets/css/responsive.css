@@ -1,7 +1,14 @@
-@media only screen and (min-width: 1921px) and (max-width: 4800px) {}
-@media only screen and (min-width: 1440px) and (max-width: 1599px) {}
-@media only screen and (min-width: 1280px) and (max-width: 1439px) {}
-@media only screen and (min-width: 1024px) and (max-width: 1279px){}
+/*========Responsive css========*/
+
+@media all and (min-width:1440px){
+   .slide.custom-splide {
+        max-height: 850px;
+    }
+    .book_table_item > button {
+        font-size: 15px;
+    }
+}
+
 
 @media all and (max-width:1439px){
     .container{
@@ -138,6 +145,36 @@
         grid-template-columns: 1fr;
         grid-row-gap: 20px;
     }
+    .choose-room-main-grid {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .details-room-main-grid-inner {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .service-single-item-grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 25px;
+        margin-top: 35px;
+    }
+    .about-let, .about-right {
+        flex: 0 0 100%;
+    }
+    .about-us-main-grid {
+        flex-wrap: wrap;
+    }
+    .staff-main-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        margin-top: 30px;
+    }
+    .staff-single-item img {
+        height: auto;
+    }
+    .gallery-main-grid .niiceeTabBtn button {
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+
 
 
 
@@ -203,6 +240,37 @@
     .customar-dts-from-inner-flex {
         flex-wrap: wrap;
     }
+    .choose-room-main-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .room-content-x > a {
+        font-size: 20px;
+        min-height: 50px;
+    }
+    .bold-items-single {
+        flex: 0 0 70%;
+    }
+    
+/*    .bory{
+        box-sizing: border-box;
+        width: 75%;
+        margin: 0 auto;
+        position: static;
+        z-index: 9;
+        overflow: hidden;
+        left: 0px;
+        top: 0px;
+        border: 1px solid #ddd;
+        border-radius: 50%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        align-self: flex-start;
+        pointer-events: none;
+        float: left;  
+    }*/
 
 }
 
@@ -295,6 +363,58 @@
     .ex-customar .custom-input-resort {
         width: 100%;
     }
+    .room-service-list > ul li {
+        flex: 0 0 90%;
+    }
+    .reqest-demo-right {
+        flex: 0 0 100%;
+    }
+    .reqest-demo-left {
+        flex: 0 0 100%;
+        margin-bottom: 25px;
+        order: -1;
+    }
+    .reqest-demo-main-flex::after,
+    .reqest-demo-main-flex::before {
+        display: none;
+    }
+    .reqest-inner-content-flex {
+        flex-wrap: wrap;
+    }
+    .reqest-inner-content-flex .custom-input {
+        flex: 0 0 100%;
+    }
+    .contact-inner-gradient {
+        margin-top: 25px;
+    }
+    section.request-demo-area.section-padding.contact-us-area {
+        padding-bottom: 30px;
+    }
+    .service-single-item-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .staff-main-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .other-page-heading > h1 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .gallery-main-grid .niiceeTabBtn button {
+        margin: 8px;
+    }
+    .gallery-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .other-page-heading > small {
+        font-size: 14px;
+    }
+    .restue-inner-items > img {
+        height: auto;
+    }
+
         
 
 }
@@ -304,6 +424,12 @@
 @media all and (max-width:413px){
     .main-menu > ul ul {
         padding-left: 0px;
+    }
+    .niiceeTabBtn button {
+        padding: 15px 15px;
+    }
+    .dts-heading-content h1 {
+        font-size: 30px;
     }
   
 }
