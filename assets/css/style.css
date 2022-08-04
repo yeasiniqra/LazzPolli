@@ -3833,7 +3833,7 @@ select{
 }
 
 .current-oppertunity-empty-content img {
-	max-width: 300px;
+	max-width: 200px;
 	width: 100%;
 	margin: 0 auto;
 	height: auto;
