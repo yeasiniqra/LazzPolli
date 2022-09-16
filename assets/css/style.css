@@ -603,7 +603,7 @@ p {
 
 .slide.custom-splide {
 	position: relative;
-	max-height: 610px;
+	/*max-height: 610px;*/
 	z-index: 1;
 }
 
@@ -734,6 +734,7 @@ p {
 .common-btn{
 	margin-top: 20px;
 }
+
 /*.common-btn > a {
 	border: 2px solid #fff;
 	display: inline-block;
@@ -1473,10 +1474,19 @@ section article {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 64px;
+	width: 70px;
 	background-color: #34e0a1;
-	padding: 7px 8px 7px 8px;
+	height: 44px;
+	z-index: 9;
 }
+
+.footer-overly > a > img {
+	width: 45px;
+	position: relative;
+	top: 4px;
+}
+
+
 
 .footer-logo > h1 {
 	font-size: 30px;
